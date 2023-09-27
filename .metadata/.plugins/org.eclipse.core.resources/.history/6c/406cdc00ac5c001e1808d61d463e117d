@@ -1,0 +1,13 @@
+package dataTypes;
+
+public class DatosPrimitivos {
+	public static void main(String[] args) {
+		/*
+		 * Datos primitivos. Datos fundamentales en Java que sirven para gestionar los tipos de informacion mas basicos
+		 * Existen 8 tipos de datos primitivos: byte, short, int, long, float, dobble, boolean, char
+		 */
+		byte age = 28;
+		System.out.println(age);
+		
+	}
+}

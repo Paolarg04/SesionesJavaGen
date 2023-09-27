@@ -1,0 +1,68 @@
+package dataTypes;
+
+public class DatosPrimitivos {
+	public static void main(String[] args) {
+		/*
+		 * Datos primitivos. Datos fundamentales en Java que sirven para gestionar los tipos de informacion mas basicos
+		 * Existen 8 tipos de datos primitivos: byte, short, int, long, float, dobble, boolean, char
+		 */
+		//BYTE. Vmin y Vmax
+		byte minByte = Byte.MIN_VALUE;
+		byte maxByte = Byte.MAX_VALUE;
+		System.out.println("El valor minimo de Byte es: " + minByte);
+		System.out.println("El valor maximo de Byte es: " + maxByte);
+		// System.out.println();//sysout + ctrl + space
+		
+		//short.Vmin y VMax
+		short minShort = Short.MIN_VALUE;
+		short maxShort = Short.MAX_VALUE;
+		System.out.println("El valor minimo de Short es " + minShort);
+		System.out.println("El valor maximo de Short es: " + maxShort);
+		
+		//chair.Vmin y VMax
+		char minChar = Character.MIN_VALUE;
+		char maxChar = Character.MAX_VALUE;
+		System.out.println("El valor minimo de Character es: " + minChar);
+		System.out.println("El valor maximo de Character es: " + maxChar);
+		
+		//Long
+		long isbn = 9788499169019L;
+		System.out.println(isbn);
+		
+		//float
+		float salary = 15000f;
+		System.out.println(salary);
+		
+		//double
+		double ISR = 1239.45d;
+		System.out.println(ISR);
+		
+		
+		//int
+		// Integer.ValorMin y Integer.ValorMAX
+		int minInt = Integer.MIN_VALUE;
+		int maxInt = Integer.MAX_VALUE;
+		System.out.println("El valor mínimo de int es: " + minInt);
+		System.out.println("El valor máximo de int es: " + maxInt);
+		
+		// Long.ValorMin y Long.ValorMAX
+		long minLong = Long.MIN_VALUE;
+		long maxLong = Long.MAX_VALUE;
+		System.out.println("El valor mínimo de long es: " + minLong);
+		System.out.println("El valor máximo de long es: " + maxLong);
+				
+		// Float.ValorMin y Float.ValorMAX
+		float minFloat = Float.MIN_VALUE;
+		float maxFloat = Float.MAX_VALUE;
+		System.out.println("El valor mínimo de float es: " + minFloat);
+		System.out.println("El valor máximo de float es: " + maxFloat);
+
+		// Double.ValorMin y Double.ValorMAX
+		double minDouble = Double.MIN_VALUE;
+		double maxDouble = Double.MAX_VALUE;
+		System.out.println("El valor mínimo de double es: " + minDouble);
+		System.out.println("El valor máximo de double es: " + maxDouble);
+		
+
+	}
+}
